@@ -46,7 +46,7 @@ class ProductTableViewCell: UITableViewCell {
     let color: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 10
-        view.backgroundColor = .systemPink
+        view.backgroundColor = .clear
         view.layer.borderWidth = 2
         view.layer.borderColor = UIColor.black.cgColor
         view.translatesAutoresizingMaskIntoConstraints = false
